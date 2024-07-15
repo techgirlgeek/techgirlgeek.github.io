@@ -7,5 +7,8 @@ layout: home
 # layout: author.profile
 owner: karyn cassio
 author_profile: true
+title: Welcome to TechGirlGeek
 ---
-<h1> Welcome to TechGirlGeek, {{ page.owner | capitalize }}</h1>
+# {{ page.title}}
+
+Content provided by: {{ page.owner | capitalize }}

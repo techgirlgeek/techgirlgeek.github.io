@@ -5,7 +5,7 @@
 layout: home
 # layout: author.profile
 # layout: author.profile
-owner: karyn
+owner: karyn cassio
 author_profile: true
 ---
-# Welcome to TechGirlGeek, {{ page.owner | capitalize }}
+<h1> Welcome to TechGirlGeek, {{ page.owner | capitalize }}</h1>

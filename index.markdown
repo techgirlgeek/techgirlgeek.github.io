@@ -3,4 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+# layout: author.profile
+# layout: author.profile
+owner: karyn
+author_profile: true
 ---
+# Welcome to TechGirlGeek, {{ page.owner | capitalize }}

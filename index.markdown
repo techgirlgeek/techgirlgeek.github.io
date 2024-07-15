@@ -9,6 +9,6 @@ owner: karyn cassio
 author_profile: true
 title: Welcome to TechGirlGeek
 ---
-# {{ page.title}}
+{{ page.title}}
 
 Content provided by: {{ page.owner | capitalize }}

@@ -3,10 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-# layout: author.profile
-# layout: author.profile
 owner: karyn cassio
-author_profile: true
 title: Welcome to TechGirlGeek
+author_profile: true
+site.search: true
 ---
 Content provided by: {{ page.owner | capitalize }}

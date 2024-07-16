@@ -23,12 +23,10 @@ name: Karyn Cassio
 author:
   name: "Karyn Cassio"
   avatar: "/assets/images/sideProfile.JPG"
-  bio: "By day I am a Senior Consultant automating things, using the power of Ansible, for Red Hat customers. Articles related to my automation work can be found here."
+  bio: "By day I am a Senior Consultant automating things, using the power of Ansible, for Red Hat customers. Posts related to my automation work can be found here."
   location: "Denver, Colorado"
   email: karyn@techgirlgeek.com
   links:
-    # - label: "Twitter"
-    #   url: https://twitter.com/techgirlgeek
     - label: "GitHub"
       icon: "fab fa-github"
       url: https://github.com/techgirlgeek
@@ -38,30 +36,38 @@ author:
     - label: "Instagram"
       icon: "fab fa-instagram"
       url: https://instagram.com/karyns_fitness_journey
-  # github_username:  techgirlgeek
-  # linkedin_username: karyncassio
-# description: >- # this means to ignore newlines until "baseurl:"
-#   I am a Sr. Consultant at Red Hat, specializing in automation, specifically Ansible and
-#   Ansible Automation Platform (AAP).
-#   Outside of work I am a proud mom of a mechanical engineering student at CSU,
-#   and a fitness enthusiast. I compete, about twice a year, in physique/body building competitions as a figure competitor.
+    - label: Certs
+      icon: "fa-solid fa-stamp"
+      url: https://www.credly.com/users/karyn_cassio/badges
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: techgirlgeek
-# github_username:  techgirlgeek
-# linkedin_username: karyncassio
 logo: "/assets/images/Techgirlgeek_Logo.png"
+
 # Build settings
-# theme: minima
-# theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-# minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin: "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 plugins:
   - jekyll-feed
-#  - jekyll-remote-theme
   - jekyll-include-cache
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "single"
+      author_profile: true
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "posts"
+      author_profiles: true
+      categories:
+        - techgirlgeek
 
 # Exclude from processing.
 # The following items will not be processed, by default.

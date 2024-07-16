@@ -1,0 +1,6 @@
+---
+title: "New Post"
+date:   2024-07-16 14:27 -0600
+published: false
+---
+This is a new post. Testing defaults.

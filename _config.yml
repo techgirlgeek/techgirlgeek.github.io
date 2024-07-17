@@ -25,7 +25,7 @@ author:
   avatar: "/assets/images/sideProfile.JPG"
   bio: "By day I am a Senior Consultant automating things, using the power of Ansible, for Red Hat customers. Posts related to my automation work can be found here."
   location: "Denver, Colorado"
-  email: karyn@techgirlgeek.com
+  email: "mailto:karyn@techgirlgeek.com"
   links:
     - label: "GitHub"
       icon: "fab fa-github"

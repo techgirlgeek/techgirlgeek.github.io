@@ -47,7 +47,8 @@ logo: "/assets/images/Techgirlgeek_Logo.png"
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
+breadcrumbs              : true # true, false (default)
+words_per_minute         : 200
 plugins:
   - jekyll-feed
   - jekyll-include-cache
